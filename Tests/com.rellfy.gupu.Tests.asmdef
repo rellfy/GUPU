@@ -1,0 +1,19 @@
+{
+    "name": "com.rellfy.gupu.Tests",
+    "references": [
+        "GUID:70c5b3a741b8c444cb4836c8a703e45e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -9,7 +9,7 @@ namespace GUPU.Tests {
             string hash = GUPU.Updater.GetLastCommitHash(
                 "https://github.com/rellfy/GUPU.git"
             );
-            Assert.Equals(hash.Length, 40);
+            Assert.True(hash.Length == 40);
         }
         
         [Test]

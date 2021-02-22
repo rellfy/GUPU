@@ -1,5 +1,8 @@
 # GUPU
 Git Unity Package Updater: an editor tool for updating git UPM packages.
+
+![](https://repository-images.githubusercontent.com/340872960/f3ae3780-7570-11eb-8b59-3741bbc8cd99)
+
 ###### Installation
 For Unity 2019.4+, You can install the package through the Unity Package Manager (UPM):
 

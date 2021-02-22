@@ -73,7 +73,7 @@ namespace GUPU {
             VisualElement status;
             if (IsPackageUpdated(package, out string hash)) {
                 TextElement updatedText = new TextElement();
-                updatedText.text = "already updated";
+                updatedText.text = "latest";
                 updatedText.style.unityTextAlign = new StyleEnum<TextAnchor>(
                     TextAnchor.MiddleCenter
                 );

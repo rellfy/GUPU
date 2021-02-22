@@ -21,6 +21,11 @@ namespace GUPU {
         }
 
         private void OnEnable() {
+            Render();
+        }
+
+        private void Render() {
+            rootVisualElement.Clear();
             UpdateLockfile();
             DisplayPackages();
         }
@@ -97,7 +102,7 @@ namespace GUPU {
             package.hash = newHash;
             LockFile[name] = package;
             PackageLock.File = LockFile;
-            UpdateLockfile();
+            Render();
         }
     }
 }

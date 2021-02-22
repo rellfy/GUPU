@@ -1,7 +1,5 @@
 # GUPU
-Git Unity Package Updater
-###### About
-GUPU is an editor tool for updating git UPM packages.
+Git Unity Package Updater: an editor tool for updating git UPM packages.
 ###### Installation
 For Unity 2019.4+, You can install the package through the Unity Package Manager (UPM):
 

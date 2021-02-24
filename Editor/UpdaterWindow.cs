@@ -63,7 +63,7 @@ namespace GUPU {
             row.style.flexDirection = FlexDirection.Row;
             row.style.minHeight = new StyleLength(25f);
             TextElement packageName = new TextElement();
-            packageName.text = name;
+            packageName.text = name != "com.rellfy.gupu" ? name : "Git Package Updater";
             packageName.style.width = new StyleLength(new Length(50, LengthUnit.Percent));
             packageName.style.unityTextAlign = new StyleEnum<TextAnchor>(
                 TextAnchor.MiddleCenter
